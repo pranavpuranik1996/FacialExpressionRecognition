@@ -1,0 +1,36 @@
+<html>
+  <head>
+	<title>
+		Facial FacialExpressionModel
+	</title>
+	<style>
+		h1 {
+				text-align: center;
+				text-transform: uppercase;
+				color: #4CAF50;
+			}	
+		div {
+				text-align : center;
+				height : 60%;
+				width : 60%;
+				padding-top : 1%;
+				padding-left : 20%;
+				padding-right : 20%;
+			}
+		img {
+				border: 4px solid #ddd;
+				border-radius: 10px;
+			}
+		img:hover {
+				box-shadow: 0 0 6px 4px rgba(0, 140, 186, 0.5);
+			}
+	</style>
+	 
+  </head>
+  <body>
+	<h1> Facial Expression Recognition </h1>
+	<div>
+		<img  id = "bg"  src="{{url_for('video_feed')}}"> 
+	</div>
+  </body>
+</html>
